@@ -38,7 +38,7 @@
 
     <properties>
         <!-- Required downgrade by hive-hcatalog-core 2.3.4 -->
-        <guava.version>16.0.1</guava.version>
+        <guava.version>30.0-android</guava.version>
     </properties>
 
   <dependencies>
@@ -186,7 +186,7 @@
         <!-- Needed in this version by hive -->
       <groupId>org.apache.thrift</groupId>
       <artifactId>libthrift</artifactId>
-      <version>0.9.3</version>
+      <version>0.14.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
